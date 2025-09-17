@@ -9,7 +9,7 @@
     "vue": "^3.5.21"
   },
   "dependencies": {
-    "@miletorix/vitepress-back-to-top-button": "^0.2.3",
+    "@davidingplus/vitepress-back-to-top-button": "^1.0.2",
     "@miletorix/vitepress-enhanced-site-links": "^1.0.2",
     "@miletorix/vitepress-image-group": "^1.1.3",
     "@miletorix/vitepress-image-viewer": "workspace:*",
