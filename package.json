@@ -1,12 +1,15 @@
 {
-  "name": "@miletorix/vitepress-image-viewer",
+  "name": "@davidingplus/vitepress-image-viewer",
   "version": "1.1.4",
+  "publishConfig": {
+    "access": "public"
+  },
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/miletorix/vitepress-image-viewer"
+    "url": "https://github.com/DavidingPlus/vitepress-image-viewer"
   },
-  "homepage": "https://miletorix.github.io/vitepress-image-viewer/",
+  "homepage": "https://davidingplus.github.io/vitepress-image-viewer/",
   "description": "VitePress image viewer with zoom, drag, fullscreen overlay, captions and download button. Automatically enhances all images on the page. Built with Vue 3.",
   "main": "./dist/image-viewer.umd.js",
   "module": "./dist/image-viewer.es.js",
@@ -40,7 +43,7 @@
     "vitepress component",
     "image preview"
   ],
-  "author": "miletorix",
+  "author": "DavidingPlus",
   "license": "MIT",
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.0",

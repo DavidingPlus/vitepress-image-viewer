@@ -10,9 +10,9 @@
   },
   "dependencies": {
     "@davidingplus/vitepress-back-to-top-button": "^1.0.2",
+    "@davidingplus/vitepress-image-viewer": "workspace:*",
     "@miletorix/vitepress-enhanced-site-links": "^1.0.2",
     "@miletorix/vitepress-image-group": "^1.1.3",
-    "@miletorix/vitepress-image-viewer": "workspace:*",
     "markdown-it": "^14.1.0",
     "vitepress-plugin-group-icons": "^1.6.1"
   }

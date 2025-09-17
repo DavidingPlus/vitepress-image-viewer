@@ -10,8 +10,8 @@ import '@miletorix/vitepress-image-group/style.css'
 import BackToTopButton from '@davidingplus/vitepress-back-to-top-button'
 import '@davidingplus/vitepress-back-to-top-button/style.css'
 
-import ImageViewerP from '@miletorix/vitepress-image-viewer'
-import '@miletorix/vitepress-image-viewer/style.css'
+import ImageViewerP from '@davidingplus/vitepress-image-viewer'
+import '@davidingplus/vitepress-image-viewer/style.css'
 
 // import ImageViewerP from '../../../packages/src/index'
 
