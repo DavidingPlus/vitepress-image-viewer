@@ -1,3 +1,4 @@
+import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 
@@ -19,11 +20,16 @@ import '@miletorix/vitepress-enhanced-site-links/style.css'
 
 export default {
   extends: DefaultTheme,
+  Layout: () => {
+    return h(DefaultTheme.Layout, null, {
+      // https://vitepress.dev/guide/extending-default-theme#layout-slots
+    })
+  },
   enhanceApp(ctx) {
-    BackToTopButton(ctx.app) 
+    BackToTopButton(ctx.app)
     ImageViewerP(ctx.app)
     ctx.app.component('ImageGroup', ImageGroup)
     ctx.app.component('Card', Card)
     ctx.app.component('CardsGroup', CardsGroup)
   }
-}
+} satisfies Theme
