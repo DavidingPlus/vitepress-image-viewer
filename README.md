@@ -40,4 +40,4 @@ export default {
 
 ## Preview
 
-![preview](/assets/preview.gif)
+![preview](https://github.com/miletorix/vitepress-image-viewer/raw/main/assets/preview.gif)
