@@ -32,3 +32,6 @@ Thumbs.db
 # macOS / Windows
 ehthumbs.db
 Desktop.ini
+
+package-lock.json
+pnpm-lock.yaml
